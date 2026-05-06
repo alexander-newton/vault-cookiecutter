@@ -1,0 +1,16 @@
+project:
+  type: default
+  output-dir: output
+
+author: "Alexander Newton"
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  pdf:
+    documentclass: article
+    keep-tex: true
