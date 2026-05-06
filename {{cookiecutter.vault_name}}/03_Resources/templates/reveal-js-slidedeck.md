@@ -1,11 +1,11 @@
 ---
 id: {% raw %}{{date:YYYYMMDDHHmm}}{% endraw %}
-title: "PROJECT TITLE"
 format:
-  html:
+  revealjs:
     embed-resources: true
+    theme: solarized
 bibliography: "../../bibliography.bib"
 author: ""
 ---
 
-DON'T FORGET TO CHANGE AUTHOR AND PROJECT TITLE
+Don't forget to change the author property!

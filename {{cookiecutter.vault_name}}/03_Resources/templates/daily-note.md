@@ -1,20 +1,11 @@
 ---
-date: {% raw %}{{date}}{% endraw %}
-time: {% raw %}{{time}}{% endraw %}
-author: {{ cookiecutter.author_name }}
-tags: [daily]
+id: {% raw %}{{date:YYYYMMDDHHmm}}{% endraw %}
+title: "DAILY NOTE TITLE"
+format:
+  html:
+    embed-resources: true
+bibliography: "../../bibliography.bib"
+author: ""
 ---
 
-# {% raw %}{{date}}{% endraw %}
-
-## Focus
-
-
-## Notes
-
-
-## Tasks
-- [ ] 
-
-## Log
-
+DON'T FORGET TO CHANGE AUTHOR AND DAILY NOTE TITLE

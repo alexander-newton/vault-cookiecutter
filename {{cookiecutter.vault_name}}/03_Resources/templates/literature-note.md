@@ -1,35 +1,11 @@
 ---
-title: {% raw %}{{title}}{% endraw %}
-created: {% raw %}{{date}}{% endraw %}
-author: {{ cookiecutter.author_name }}
-citekey: 
-authors: []
-year: 
-tags: [literature]
+id: {% raw %}{{date:YYYYMMDDHHmm}}{% endraw %}
+title: "LITERATURE NOTE TITLE"
+format:
+  html:
+    embed-resources: true
+bibliography: "../../bibliography.bib"
+author: ""
 ---
 
-# {% raw %}{{title}}{% endraw %}
-
-> [!cite] Citation
-> 
-
-## Summary
-
-
-## Key arguments
-- 
-
-## Methods
-
-
-## Findings
-
-
-## Quotes
-
-
-## My notes
-
-
-## Related
-- 
+DON'T FORGET TO CHANGE AUTHOR AND LITERATURE NOTE TITLE

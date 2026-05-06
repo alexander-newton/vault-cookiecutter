@@ -80,12 +80,18 @@ Full snippet list lives in `.obsidian/plugins/obsidian-latex-suite/data.json`.
 Stored in `03_Resources/templates/`. Insert via Command palette → "Templates: Insert template".
 
 Shipped:
-- `daily-note.md` — daily journal
+- `daily-note.md` — daily journal scaffold
 - `project.md` — project index page; drop one at the top of each `01_Projects/<project>/` folder
-- `meeting.md` — agenda / decisions / actions
+- `meeting.md` — meeting note scaffold
 - `literature-note.md` — reading notes for a Zotero entry
+- `team-note.md` — Quarto-rendered HTML team note
+- `reveal-js-slidedeck.md` — Quarto reveal.js slide deck (solarized theme, embed-resources)
 
-Tokens `{% raw %}{{date}}{% endraw %}`, `{% raw %}{{time}}{% endraw %}`, `{% raw %}{{title}}{% endraw %}` are filled in on insert. Time format is `HHmm` (set in `.obsidian/templates.json`).
+Each template is a minimal scaffold with a Quarto front-matter block (`id`, `title`, `format`, `bibliography`, `author`) and a directive reminding you to fill in the placeholders. The body is intentionally empty — write what the note actually needs.
+
+Tokens `{% raw %}{{date:YYYYMMDDHHmm}}{% endraw %}`, `{% raw %}{{date}}{% endraw %}`, `{% raw %}{{time}}{% endraw %}`, `{% raw %}{{title}}{% endraw %}` are filled in on insert. Time format is `HHmm` (set in `.obsidian/templates.json`).
+
+The `bibliography:` field defaults to `../../bibliography.bib` (vault-root, when the note lives two levels deep). Drop a `bibliography.bib` at the vault root — usually a Better-BibTeX auto-export from Zotero — and citations will render via Quarto.
 
 ## Quarto
 

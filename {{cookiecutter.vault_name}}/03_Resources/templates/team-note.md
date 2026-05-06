@@ -1,6 +1,6 @@
 ---
 id: {% raw %}{{date:YYYYMMDDHHmm}}{% endraw %}
-title: "PROJECT TITLE"
+title: "TEAM NOTE TITLE"
 format:
   html:
     embed-resources: true
@@ -8,4 +8,4 @@ bibliography: "../../bibliography.bib"
 author: ""
 ---
 
-DON'T FORGET TO CHANGE AUTHOR AND PROJECT TITLE
+DON'T FORGET TO CHANGE AUTHOR AND TEAM NOTE TITLE
