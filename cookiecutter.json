@@ -1,0 +1,11 @@
+{
+  "vault_name": "my-vault",
+  "author_name": "Alexander Newton",
+  "git_remote_url": "",
+  "quarto_output_dir": "output",
+  "install_quarto_extensions": ["yes", "no"],
+  "_copy_without_render": [
+    ".obsidian/plugins/*",
+    ".obsidian/themes/*"
+  ]
+}

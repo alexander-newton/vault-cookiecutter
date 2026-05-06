@@ -1,0 +1,16 @@
+project:
+  type: default
+  output-dir: {{ cookiecutter.quarto_output_dir }}
+
+author: "{{ cookiecutter.author_name }}"
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  pdf:
+    documentclass: article
+    keep-tex: true

@@ -1,0 +1,15 @@
+.obsidian/
+{{ cookiecutter.quarto_output_dir }}/
+.quarto/
+_freeze/
+
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+.DS_Store
+Thumbs.db
